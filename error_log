@@ -1,0 +1,6 @@
+[22-Mar-2021 13:43:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcode() in /home/xekl0bfv3o1t/public_html/domain/index.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/xekl0bfv3o1t/public_html/domain/index.php on line 57
+[22-Mar-2021 14:21:53 UTC] PHP Notice:  Undefined index: message in /home/xekl0bfv3o1t/public_html/domain/contact.php on line 9
+[22-Mar-2021 14:21:53 UTC] PHP Notice:  Undefined index: message in /home/xekl0bfv3o1t/public_html/domain/contact.php on line 10
