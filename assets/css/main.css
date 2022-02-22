@@ -2061,10 +2061,8 @@ mark, .mark {
     align-items: center;
     justify-content: center;
     align-self: center;
-    background: #222222cf;
     border-radius: 5px;
     float: none;
-    padding: 60px 20px;
 }
 
 .personal_info ul {
