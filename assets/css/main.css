@@ -691,7 +691,7 @@ mark, .mark {
 
 .hero__wrapper {
     position: relative;
-    padding: 120px 0 50px;
+    padding: 24vw 0 50px;
     z-index: 99;
     min-height: 100vh;
 }
@@ -2034,6 +2034,13 @@ mark, .mark {
         overflow: hidden;
         display: none;
     }
+    .header__left > span {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .hero__wrapper {
+        padding: 50vw 0 50px;
+    }
 }
 
 @media (min-width: 600px) {
@@ -2048,12 +2055,22 @@ mark, .mark {
         overflow: hidden;
         display: none;
     }
+    .header__left > span {
+        font-weight: 500;
+        font-size: 16px;
+    }
 }
 
 
 @media (min-width: 1200px) {
     .countdown__module span {
         font-size: 90px;
+    }
+    .hero__wrapper {
+        position: relative;
+        padding: 24vw 0 50px;
+        z-index: 99;
+        min-height: 100vh;
     }
 }
 .personal_info {
