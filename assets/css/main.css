@@ -514,12 +514,9 @@ mark, .mark {
     padding: 15px 15px;
 }
 
-.header__left {
-    display: none;
-}
 
 .header__left > span {
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .header__left > span + span:before {
@@ -2057,4 +2054,30 @@ mark, .mark {
     .countdown__module span {
         font-size: 90px;
     }
+}
+.personal_info {
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    background: #222222cf;
+    border-radius: 5px;
+    float: none;
+    padding: 60px 20px;
+}
+
+.personal_info ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.personal_info ul li {
+    margin: 1px 15px;
+}
+.personal_info ul li::after {
+    content: " | ";
+    margin-left: 20px;
 }
