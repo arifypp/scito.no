@@ -517,6 +517,7 @@ mark, .mark {
 
 .header__left > span {
     font-weight: 500;
+    font-size: 24px;
 }
 
 .header__left > span + span:before {
